@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    --yellow: #ffc800;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar-brand {
+    width: 150px;
+}
+
+header {
+    height: 100vh;
+    background-image: url(header-bg.jpg);
+    background-size: cover;
+}
+
+.nav-link:hover,
+.navbar .active {
+    color: var(--yellow)!important;
+}
+
+.nav-link {
+    letter-spacing: 1px;
+    opacity: 0.8;
+}
+
+.text h1 {
+    font-size: 75px;
+}
+
+.bg-dark {
+    background-color: transparent!important;
+}
+
+.btn-warning:hover {
+    background-color: #c9a10e!important;
+}
+
+.text h2 {
+    font-size: 45px;
+}
+
+.btn-warning:active {
+    box-shadow: none;
+}
+
+nav {
+    transition: .3s;
+}
+
+.services .text p {
+    letter-spacing: .2px;
+}
+
+.icon {
+    background-color: var(--yellow);
+    border-radius: 50%;
+    width: fit-content
+}
+
+.icon i {
+    font-size: 50px;
+    color: white
+}
+
+.portfolio {
+    background-color: #f8f9fa;
+}
+
+.card-img {
+    cursor: pointer;
+    position: relative;
+}
+
+.card-img:hover::before {
+    opacity: 1;
+}
+
+.card-img::before {
+    transition: .3s;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: "+";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffc800c6;
+    color: white;
+    font-size: 80px;
+    z-index: 2;
+    font-weight: bolder;
+}
+
+.team .image {
+    border: 9px solid rgba(198, 196, 196, 0.5)
+}
+
+.team i {
+    font-size: 25px;
+    color: white;
+}
+
+.form {
+    background: url(map-image.png);
+}
+
+@media (max-width:440px) {
+    .text h2 {
+        font-size: 20px
+    }
+    .text h1 {
+        font-size: 45px;
+    }
+}
+
+.product {
+    margin: 15px;
+    width: 98%;
+    height: 85vh;
+    z-index: 100;
+}
