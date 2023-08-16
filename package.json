@@ -1,0 +1,23 @@
+{
+  "name": "first-bootstrap-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HassanMuhammadd/First-Bootstrap-Template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HassanMuhammadd/First-Bootstrap-Template/issues"
+  },
+  "homepage": "https://github.com/HassanMuhammadd/First-Bootstrap-Template#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.1"
+  }
+}
